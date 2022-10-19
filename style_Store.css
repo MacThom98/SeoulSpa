@@ -1,0 +1,239 @@
+.flex-between{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+
+.flex-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.hot-prod{
+    background-color: #DD3E5E;
+    margin-bottom: 26px;
+    padding: 24px 0 16px;
+}
+
+.hot-prod h2{
+    font-size: 22px;
+    padding: 0 0 16px;
+    font-weight: 700;
+    color:#FFF;
+    text-align: center;
+}
+.slideshow-prod{
+    padding-bottom: 45px;
+}
+.container-card{
+    width: 290px;
+    margin-bottom: 24px;
+}
+.container-card>.card{
+    padding:0;
+    padding-bottom: 4px;
+
+}
+.container-card>.card:hover{
+    background-color: rgb(240, 240, 240);
+    box-shadow: 1px 1px 15px gray;
+    cursor: pointer;
+}
+.card{
+    padding: 8px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container-card>.card h3,
+.container-card>.card .price-prod{
+    padding: 8px;
+}
+
+
+
+.card:hover{
+    background-color: rgb(251, 233, 211);
+}
+.card a{
+    text-decoration: none;
+}
+.card .add-cart:hover{
+    background: linear-gradient(90deg,#DD3E5E 0%,#B61D4C 100%);
+}
+.card .add-cart:hover a{
+    color:#FFF;
+}
+
+/* .img-card-control{
+    height: 240px;
+
+} */
+
+.img-card-control img{
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+.congdung {
+    padding: 5px 10px;
+}
+
+.congdung a{
+    font-size: 12px;
+}
+
+.congdung .docquyen{
+    color: #EB4062;
+    font-size: 13px;
+    background: linear-gradient(180deg,#FFEDED 0%,#FEF4E9 100%);
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 8px;
+    }
+
+.ten{
+    padding: 6px 0 7px;
+}    
+.ten a{
+    font-size: 14px;
+}
+
+.price-prod{
+    font-size: 16px;
+    color: #EB4062;
+    padding: 0 0 10px;
+    font-weight: 700;
+}
+
+.add-cart{
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #DD3E5E;
+    height: 40px;
+
+}
+
+
+.nav-control{
+    list-style-type: none;
+}
+
+.content .navbar .nav-control li{
+    padding: 8px 40px;
+    background:linear-gradient(180deg,#FFEDED 0%,#FEF4E9 100%);
+    border-radius: 10px;
+}
+.content .navbar .nav-control li:hover{
+    background: linear-gradient(90deg,#DD3E5E 0%,#B61D4C 100%);
+    cursor: pointer;
+}
+.content .navbar .nav-control li:hover a{
+    color:#fff;
+}
+
+.content .navbar .item-active{
+    background: linear-gradient(90deg,#DD3E5E 0%,#B61D4C 100%) !important;
+}
+.content .navbar .item-active a{
+    color:#FFF;
+}
+
+.content .navbar .nav-control a{
+    text-decoration: none;
+}
+
+.card-prod{
+    margin-top: 24px;
+}
+
+.line-bot-seemore{
+    margin: 0 auto;
+    border-bottom:5px solid #DD3E5E;
+    height: 10px;
+    width: 36px;
+}
+
+section{
+    background-color: #FFF;
+    padding-bottom: 49px;
+    margin-top: 40px;
+}
+
+.tcolo-red{
+    color:#EB4062;
+}
+.section-top h2{
+    padding: 52px 0 21px;
+}
+
+.section-top p{
+    margin: 0 0 5px;
+}
+
+.section-bot{
+    margin: 16px 0;
+}
+.switcher-address .nav-control{
+    gap: 20px;
+    background-color: #DD3E5E;
+    color: #FFF;
+}
+
+.switcher-address .nav-control li{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border:1px solid #fff;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text-left{
+    text-align: left;
+}
+.tab-branch {
+    border: 1px solid #DD3E5E;
+    border-radius: 0 0 10px 10px;
+    height: 460px;
+    overflow: auto;
+    padding: 26px 30px 10px;
+    line-height: 1.6;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+.item-branch{
+    width: 50%;
+    gap:16px;
+    margin-bottom: 12px;
+} 
+.item-img{
+    width: 112px;
+    height: 112px;
+} 
+
+.item-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tim-kiem-nhanh span{
+    padding: 8px 16px;
+    color:#FFF;
+    background-color: #DD3E5E;
+    border-radius: 10px ;
+}
+.tim-kiem-nhanh span:hover{
+    background-color: #731732;
+    cursor: pointer;
+}

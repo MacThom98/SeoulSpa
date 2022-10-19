@@ -1,0 +1,34 @@
+.content h1{
+    color:#DD3E5E;
+    padding: 0 0 20px;
+    font-size: 27px;
+}
+
+.content p{
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+.content .img-control img{
+    display: block;
+    width: 800px;
+    height: auto;
+    margin: 0 auto; 
+}
+
+.content .video-control{
+    width: 100%;
+    height:650px;
+    margin-bottom: 12px;
+}
+
+.section-content ul li{
+    color:#DD3E5E;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-bottom: 12px;
+}
+.section-content ul li a{
+    text-decoration: none;
+    color: #DD3E5E;
+}
